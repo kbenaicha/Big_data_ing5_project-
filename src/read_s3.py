@@ -30,7 +30,7 @@ print("Date UTC :", datetime.now(timezone.utc).isoformat())
 if namespace_file.exists():
     print("Namespace :", namespace_file.read_text().strip())
 
-# Les identifiants sont lus par boto3 depuis la configuration Onyxia.
+
 s3 = boto3.client("s3", endpoint_url=endpoint)
 response = s3.get_object(Bucket=BUCKET, Key=KEY)
 
