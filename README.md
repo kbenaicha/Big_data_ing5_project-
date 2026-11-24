@@ -3,7 +3,7 @@
 
 ## Auteurs
 - Kawtar Benaicha
-- Salma Bouzzouba
+- Salma Bouzoubaa
 
 ## Prérequis
 Compte Onyxia, Python 3.13, Git et accès à un bucket S3.
